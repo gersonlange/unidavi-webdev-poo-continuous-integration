@@ -7,7 +7,7 @@ public class WordProblemSolver
 {
 	private Map<String,Integer> results = new HashMap<>();
 
-	{
+	public WordProblemSolver() {
 		results.put("What is 53 plus 2?", 55);
 		results.put("What is 1 plus 1?", 2);
 		results.put("What is -1 plus -10?", -11);
